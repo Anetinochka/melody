@@ -1,0 +1,53 @@
+*{
+   box-sizing:border-box; /*важое правило, которое позволяет правильо считать высоту и ширину*/
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #635854;
+    padding-top: 12px;/*внутриний отступ сверху*/
+    padding-bottom: 12px; /*внутриний отступ снизу*/
+    border-bottom: 4px solid #3596F5; /*сплошная линия снизу  голубого цвета*/
+}
+.navbar {
+    max-width: 1280px;
+    margin: auto;
+    display: flex; /*сделали эллемент гибким*/
+    justify-content: space-between; /*Расставили эллементы по краям*/
+    align-items: center;
+}
+.navbar-menu {
+    margin: 0; /* отключаем внешние отступы*/
+    padding: 0; /* отключаем внутриние отступы*/
+    list-style: none; /*отключаем точки у списка*/
+    display: flex; 
+    text-align: center
+    
+}
+.navbar-item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link {
+    text-decoration: none;
+    color: white;
+}
+.navbar-contacts {
+    text-align: right;
+}
+.navbar-text {
+    display: block;
+    color: #fff;
+    margin-bottom: 4px; /*отталкиваем текст на 4px вниз*/
+    font-size: 14px;
+    line-height: 16px;
+}
+.navbar-phone {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color:#fff;
+}
